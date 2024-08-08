@@ -8,6 +8,8 @@ That component is a custom TextField view, to be used in any SwiftUI project.
 <img width="255" alt="Screenshot 2024-08-06 at 13 59 20" src="https://github.com/user-attachments/assets/51778a8c-06d2-4b1e-9fbd-461657bb8a24">
 
 ## Use the component
+> **_NOTE_**: The file `CustomTextFieldView.swift` must be added to your project directory before using the component.
+
 **Here the basic way to declare the component:**<br>
 
 ```
