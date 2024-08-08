@@ -8,5 +8,26 @@ That component is a custom TextField view, to be used in any SwiftUI project.
 <img width="255" alt="Screenshot 2024-08-06 at 13 59 20" src="https://github.com/user-attachments/assets/51778a8c-06d2-4b1e-9fbd-461657bb8a24">
 
 ## Use the component
+**Here the basic way to declare the component:**<br>
+
+```
+struct SampleView: View {
+    @Binding var email: String
+    
+    var body: some View {
+        CustomTextField("Email", text: $email)
+    }
+}
+```
+
+The two required parameters are:<br>
+- `_` The text prompt (here `"Email"`)
+- `text:` The Binding<String> value (here `$email`)
+
+
+
+The width of the text field cn be adjust with the optional parameter `width`:<br>
+
+`CustomTextField("Email", text: $email, width: 100)`
 
 ## Extensions
