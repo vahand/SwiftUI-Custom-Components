@@ -49,6 +49,14 @@ CustomTextField("Email", text: $email)
 </p>
 
 ## Extensions
+An extension is available to add a clear button to the CustomTextField component:
+> **_NOTE_**: The file `TextFieldClearButton.swift` stored in the `/Extensions` directory must be added to your project directory before using the component.
+
+```
+CustomTextField("Email", text: $email)
+    .showClearButton($email)
+```
+
 <p align="center">
     <img width="255" alt="Screenshot 2024-08-12 at 18 04 31" src="https://github.com/user-attachments/assets/19d704bd-ebfe-4419-ab3c-1b21acbc99d5">
 </p>
